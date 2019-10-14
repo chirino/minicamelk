@@ -1,5 +1,5 @@
-# kamel kit create --image=lburgazzoli/camel-k-quarkus:1.0.2-SNPASHOT camel-q
-# kamel run --dev ChannelHR.yaml --kit camel-q
+# kamel kit create --image=lburgazzoli/camel-k-quarkus:1.0.2-SNAPSHOT camel-q
+# kamel run ChannelHR.yaml --dev --kit=camel-q
 - from:
     uri: "knative:channel/heartrate"
     steps:

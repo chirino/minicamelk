@@ -1,8 +1,7 @@
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.component.jackson.JacksonDataFormat;
 
-//kamel run -d camel-jackson -d camel-kafka SenderChannels.java --dev
-
+//kamel run SenderChannels.java --dev -d camel-jackson 
 public class SenderChannels extends RouteBuilder {
 
   private static final String STREAMS_URL = "my-cluster-kafka-bootstrap.usecase.svc:9092";
